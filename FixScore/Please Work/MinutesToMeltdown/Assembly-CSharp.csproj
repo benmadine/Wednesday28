@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{66FABEA2-9180-4ED4-BB46-1C71A95A087B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_3_1;UNITY_2017_3;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanCameraMove.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanCameraMoveSmooth.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanCameraZoom.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanCameraZoomSmooth.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanDestroy.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerDown.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerHeld.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerLine.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerSet.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerSwipe.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerTap.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerTrail.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerUp.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanMultiTap.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanMultiTapInfo.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanOpenUrl.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanPitchYaw.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanPitchYawSmooth.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanPressSelect.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanRotate.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanScale.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelect.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectableBehaviour.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectableRendererColor.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectableSpriteRendererColor.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectableTranslateInertia2D.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectableTranslateInertia3D.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSpawn.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSwipeDirection4.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSwipeDirection8.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSwipeRigidbody2D.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSwipeRigidbody2DNoRelease.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSwipeRigidbody3D.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSwipeRigidbody3DNoRelease.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanTapSelect.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanTouchEvents.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanTranslate.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanTranslateSmooth.cs" />
+     <Compile Include="Assets\LeanTouch\Scripts\LeanFinger.cs" />
+     <Compile Include="Assets\LeanTouch\Scripts\LeanGesture.cs" />
+     <Compile Include="Assets\LeanTouch\Scripts\LeanSelectable.cs" />
+     <Compile Include="Assets\LeanTouch\Scripts\LeanSnapshot.cs" />
+     <Compile Include="Assets\LeanTouch\Scripts\LeanTouch.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\CustomTypes.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Enums.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Extensions.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\FriendInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\GizmoType.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\LoadbalancingPeer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonClasses.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonLagSimulationGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonPlayer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStatsGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStreamQueue.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PingCloudRegions.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Room.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RoomInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RPC.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\ServerSettings.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\SocketUdp.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\SocketWebTcp.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonAnimatorView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonRigidbody2DView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonRigidbodyView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewPositionControl.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewPositionModel.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewRotationControl.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewRotationModel.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleControl.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleModel.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ConnectAndJoinRandom.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\CullArea.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InputToEvent.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InRoomChat.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ManualPhotonViewAllocator.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\MoveByKeys.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\NetworkCullingHandler.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickDestroy.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickInstantiate.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnJoinedInstantiate.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnStartDelete.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PhotonPlayer\PlayerRoomIndexing.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItem.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItemSimple.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItemSyncer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PointedAtGameObjectInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunPlayerScores.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunTeams.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunTurnManager.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\QuitOnEscapeOrBack.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ShowStatusWhenConnecting.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SmoothSyncMovement.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SupportLogger.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\TimeKeeper.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\UI\ButtonInsideScrollList.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\UI\TextButtonTransition.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\UI\TextToggleIsOnTransition.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatChannel.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatClient.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatDisconnectCause.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatEventCode.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatOperationCode.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatParameterCode.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatPeer.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatState.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatUserStatus.cs" />
+     <Compile Include="Assets\PhotonChatApi\IChatClientListener.cs" />
+     <Compile Include="Assets\Scripts\EndSceen\GameOver\GameOver.cs" />
+     <Compile Include="Assets\Scripts\InSideJob\Scenario2\CameraGuards.cs" />
+     <Compile Include="Assets\Scripts\InSideJob\Scenario2\DontDestroyOnLoadScripts\ScoreSaving.cs" />
+     <Compile Include="Assets\Scripts\InSideJob\Scenario2\GameControlerScenario2.cs" />
+     <Compile Include="Assets\Scripts\InSideJob\Scenario2\GridScripts\Grid.cs" />
+     <Compile Include="Assets\Scripts\InSideJob\Scenario2\GridScripts\Node.cs" />
+     <Compile Include="Assets\Scripts\InSideJob\Scenario2\Guard Chaser Scripts\BarricadeLifeTime.cs" />
+     <Compile Include="Assets\Scripts\InSideJob\Scenario2\Guard Chaser Scripts\GuardChaserManager.cs" />
+     <Compile Include="Assets\Scripts\InSideJob\Scenario2\Guard Drone Scripts\AlarmScript.cs" />
+     <Compile Include="Assets\Scripts\InSideJob\Scenario2\Guard Drone Scripts\GuardDroneManager.cs" />
+     <Compile Include="Assets\Scripts\InSideJob\Scenario2\InGameManager\CameraWork.cs" />
+     <Compile Include="Assets\Scripts\InSideJob\Scenario2\InGameManager\DepositLootManager.cs" />
+     <Compile Include="Assets\Scripts\InSideJob\Scenario2\InGameManager\GameProgress.cs" />
+     <Compile Include="Assets\Scripts\InSideJob\Scenario2\InGameManager\InSideJobManager.cs" />
+     <Compile Include="Assets\Scripts\InSideJob\Scenario2\InGameManager\PlayerSelection.cs" />
+     <Compile Include="Assets\Scripts\InSideJob\Scenario2\InGameManager\SpawnItems.cs" />
+     <Compile Include="Assets\Scripts\InSideJob\Scenario2\Instructions\InstructionManager.cs" />
+     <Compile Include="Assets\Scripts\InSideJob\Scenario2\PlayerJoyStick.cs" />
+     <Compile Include="Assets\Scripts\InSideJob\Scenario2\Thief Collector Scripts\ThiefCollectorManager.cs" />
+     <Compile Include="Assets\Scripts\InSideJob\Scenario2\Thief Hacker Scripts\ThiefHackerManager.cs" />
+     <Compile Include="Assets\Scripts\InSideJob\ScoreReveal\ScoreRevealManager.cs" />
+     <Compile Include="Assets\Scripts\InstructionsScreen\InstructionsButtons.cs" />
+     <Compile Include="Assets\Scripts\InstructionsScreen\ManualManager.cs" />
+     <Compile Include="Assets\Scripts\Minutes2Meltdown\Dialogue\DialogueScript.cs" />
+     <Compile Include="Assets\Scripts\Minutes2Meltdown\Puzzles\Scenario1\DialPuzzle\DialArrow.cs" />
+     <Compile Include="Assets\Scripts\Minutes2Meltdown\Puzzles\Scenario1\DialPuzzle\DialPuzzle.cs" />
+     <Compile Include="Assets\Scripts\Minutes2Meltdown\Puzzles\Scenario1\KeyCard Puzzle\KetCardCounter.cs" />
+     <Compile Include="Assets\Scripts\Minutes2Meltdown\Puzzles\Scenario1\KeyCard Puzzle\KeyCardManager.cs" />
+     <Compile Include="Assets\Scripts\Minutes2Meltdown\Puzzles\Scenario1\KeyCard Puzzle\KeyCardScript.cs" />
+     <Compile Include="Assets\Scripts\Minutes2Meltdown\Puzzles\Scenario1\KeyCard Puzzle\KeyCardTimer.cs" />
+     <Compile Include="Assets\Scripts\Minutes2Meltdown\Puzzles\Scenario1\LivesScript.cs" />
+     <Compile Include="Assets\Scripts\Minutes2Meltdown\Puzzles\Scenario1\MathsPuzzle\BatteryPuzzle.cs" />
+     <Compile Include="Assets\Scripts\Minutes2Meltdown\Puzzles\Scenario1\MathsPuzzle\MathsPuzzle.cs" />
+     <Compile Include="Assets\Scripts\Minutes2Meltdown\Puzzles\Scenario1\TimerScript.cs" />
+     <Compile Include="Assets\Scripts\Minutes2Meltdown\Puzzles\Scenario1\WirePuzzle\DragBlueWire.cs" />
+     <Compile Include="Assets\Scripts\Minutes2Meltdown\Puzzles\Scenario1\WirePuzzle\DragMiddleWire.cs" />
+     <Compile Include="Assets\Scripts\Minutes2Meltdown\Puzzles\Scenario1\WirePuzzle\WirePuzzle.cs" />
+     <Compile Include="Assets\Scripts\Minutes2Meltdown\Scenarios\GameManagerScript.cs" />
+     <Compile Include="Assets\Scripts\Minutes2Meltdown\Scenarios\RandomPuzzlePicker.cs" />
+     <Compile Include="Assets\Scripts\ServerSettings\UpdatedServer\CreateRoom.cs" />
+     <Compile Include="Assets\Scripts\ServerSettings\UpdatedServer\CurrentRoomCanvas.cs" />
+     <Compile Include="Assets\Scripts\ServerSettings\UpdatedServer\DontDestroyOnLoad.cs" />
+     <Compile Include="Assets\Scripts\ServerSettings\UpdatedServer\LobbyCanvas.cs" />
+     <Compile Include="Assets\Scripts\ServerSettings\UpdatedServer\LobbyNetwork.cs" />
+     <Compile Include="Assets\Scripts\ServerSettings\UpdatedServer\MainCanvasManager.cs" />
+     <Compile Include="Assets\Scripts\ServerSettings\UpdatedServer\PlayerLayoutGroup.cs" />
+     <Compile Include="Assets\Scripts\ServerSettings\UpdatedServer\PlayerListing.cs" />
+     <Compile Include="Assets\Scripts\ServerSettings\UpdatedServer\PlayerNetwork.cs" />
+     <Compile Include="Assets\Scripts\ServerSettings\UpdatedServer\RoomLayoutGroup.cs" />
+     <Compile Include="Assets\Scripts\ServerSettings\UpdatedServer\RoomListing.cs" />
+     <Compile Include="Assets\Scripts\StartScreen\ButtonManager.cs" />
+     <Compile Include="Assets\Scripts\StartScreen\DontDestroy.cs" />
+     <None Include="Assets\LeanTouch\Examples\Fonts\OFL.txt" />
+     <None Include="Assets\Photon Unity Networking\link.xml" />
+     <None Include="Assets\LeanTouch\Examples\Shaders\Skybox.shader" />
+     <None Include="Assets\LeanTouch\Examples\Shaders\Smooth.shader" />
+     <None Include="Assets\Photon Unity Networking\readme.txt" />
+     <None Include="Assets\Photon Unity Networking\changelog.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Timeline">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIAutomation">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.GoogleAudioSpatializer">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>C:/Users/benma/Desktop/Wednesday28/FixScore/Please Work/MinutesToMeltdown/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>C:/Users/benma/Desktop/Wednesday28/FixScore/Please Work/MinutesToMeltdown/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>C:/Users/benma/Desktop/Wednesday28/FixScore/Please Work/MinutesToMeltdown/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Users/benma/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>C:/Users/benma/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Users/benma/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>C:/Users/benma/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Users/benma/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>C:/Users/benma/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>C:/Users/benma/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{F0E0A164-B71C-AA72-DCA0-542914EE6822}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

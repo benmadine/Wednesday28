@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Puzzle1Button
+  - GameManager
+  - Puzzle2Button
+  - Puzzle3Button
+  - Puzzle4Button
+  - RedWire
+  - MathsPuzzle
+  - Lost
+  - Passed
+  - TimerText
+  - MathPuzzleNumber
+  - FlashWirePuzzle
+  - SocketEnd1
+  - SocketEnd2
+  - SocketEnd3
+  - SocketEnd4
+  - GreenWire
+  - BlueWire
+  - OrangeWire
+  - RedButton
+  - GreenButton
+  - BlueButton
+  - YellowButton
+  - SocketEnd
+  - RedWireEnd
+  - GreenWireEnd
+  - BlueWireEnd
+  - YellowWireEnd
+  - WirePuzzle
+  - DialPuzzle
+  - Dial
+  - Arrow
+  - DialText1
+  - DialText4
+  - DialText3
+  - DialText2
+  - Button1
+  - Button2
+  - Button3
+  - Button4
+  - KeyCard1
+  - KeyCard2
+  - KeyCard3
+  - KeyCard4
+  - KeyCard5
+  - KeyCard6
+  - Scanner
+  - KeyCardPuzzle
+  - Destroy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - RedWire
+  - GreenWire
+  - BlueWire
+  - YellowWire
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
